@@ -1,0 +1,678 @@
+{
+  "navigation": {
+    "home": "Home",
+    "contact": "Contact Us",
+    "stores": "Find Store",
+    "home_description": "Return to homepage",
+    "contact_description": "Get in touch",
+    "stores_description": "Find our stores"
+  } ,
+  "cart": {
+    "openCart": "Open cart",
+    "close": "Close cart",
+    "title": "Your Cart",
+    "quantity": "Qty",
+    "remove": "Remove item",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Add some products to get started"
+    }
+  },
+   "brand": {
+    "name": "Painto",
+    "tagline": "Professional Adhesive Solutions"
+  },
+  "hero": {
+    "badge": "Developed in accordance with the requirements of the Israeli market",
+    "title": "Painto's",
+    "titleSecond":"SUPER series",
+    "subtitle": "Three professional MS polymer-based adhesives",
+    "fullDescription": "Adapted to field conditions. Designed for cladding, installations, design and precise projects",
+    "description": "Adapted to field conditions.",
+    "trustedBy": " Designed for cladding, installations,",
+    "provenPerformance": "design and precise projects.",
+    "findDealer": "Find in a nearby store",
+    "technicalDocs": "Contact us",
+    "primaryCTA": "Get Wholesale Quote",
+    "secondaryCTA": "Find Nearby Store"
+  },
+
+  "heroFeatures": {
+  "instantGrip": "Fast Adhesion",
+  "weatherResistant": "UV Resistant",
+  "noDrilling": "No Drilling Required",
+  "fieldTested": "Field Tested & Proven"
+  },
+
+  "features": {
+    "instantGrip": "Instant Grip",
+    "weatherResistant": "Weather Resistant", 
+    "crystalClear": "4 shades",
+    "professionalGrade": "Professional Grade",
+    "uvResistant": "UV Resistant",
+    "quickCure": "Quick Cure",
+    "heavyLoad": "400kg Load",
+    "allWeather": "All Weather",
+    "instantGrab": "Instant Grab",
+    "professional": "Professional",
+    "ecoFormula": "Eco Formula",
+    "naturalBond": "Natural Bond",
+    "safeIndoor": "Safe Indoor",
+    "lowVOC": "Low VOC"
+  },
+  "products": {
+    "shopifySubtitles": {
+    "superExtreme": "Industrial Strength — For the Jobs That Matter Most When failure is not an option",
+    "superCrystal": "Crystal Clear Bonding — When Perfection Matters The invisible choice for glass, ceramics, and light-colored materials",
+    "superHighTack": "Instant Grip, Maximum Hold — Built for Cladding Pros The ultimate choice for wall cladding and decorative installations"
+  },
+  "newCTA":"View Product Details",
+  "cta":"View Product",
+  "badge": "MS Polymer Technology",
+  "title": "Full Product Range",
+  "subtitle": "Professional Solutions for Every Need",
+  "heading":"Professional Adhesive Solutions",
+  "description": "Discover our comprehensive catalog of advanced adhesives and sealants, carefully designed to meet the highest standards. Each product is tailored to unique applications, field tested in Israel, and guarantees quality, strength, and durability for years to come.",
+  "badges": {
+    "premium": "Premium",
+    "bestSeller": "Best Seller",
+    "ecoFriendly": "Eco-Friendly",
+    "universal": "Universal", 
+    "crystalClear": "Crystal Clear", 
+    "highTack": "High Tack"
+  },
+  "extreme": {
+    "name": "SUPER EXTREME",
+    "subtitle": "For the really heavy stuff",
+    "description": "MS Universal Adhesive for General Purpose Extra strong adhesive based on MS polymer, suitable for general construction and industrial work"
+  },
+  "crystal": {
+    "name": "Super Crystal",
+    "subtitle": "Transparent MS Glue",
+    "description": "A completely transparent glue, ideal for bonding jobs that require a clean and aesthetic appearance."
+  },
+  "highTack": {
+    "name": "SUPER HIGH TACK",
+    "subtitle": "Adhesive intended for wall coverings",
+    "description": "MS Adhesive for Cladding and Vertical Bonding A unique adhesive with extra-high initial adhesive strength, specially developed for cladding"
+  },
+  "catalog": {
+    "extreme": {
+      "name": "SUPER EXTREME",
+      "subtitle": "For the really heavy stuff",
+      "description": "MS Universal Adhesive for General Purpose Extra strong adhesive based on MS polymer, suitable for general construction and industrial work"
+    },
+    "highTack": {
+      "name": "SUPER HIGH TACK",
+      "subtitle": "Special for cladding and decorative projects",
+      "description": "MS Adhesive for Cladding and Vertical Bonding A unique adhesive with extra-high initial adhesive strength, specially developed for cladding"
+    },
+    "crystal": {
+      "name": "Super Crystal",
+      "subtitle": "Extremely transparent – ​​when every detail matters",
+      "description": "A completely transparent glue, ideal for bonding jobs that require a clean and aesthetic appearance."
+    }
+  },
+  "specs": {
+    "msPolymerBased": "Aesthetic and clean result",
+    "strongTack": "Extreme strength for heavy weights",
+    "flexibility": "Suitable for wood, stainless steel, concrete",
+    "paintable": "Paintable After Curing",
+    "uvResistant": "UV resistant, indoor and outdoor",
+    "interiorExterior": "For Interior & Exterior Use",
+    "highTack": "Extremely high adhesive strength",
+    "claddingDesign": "Fast adhesion, long-lasting",
+    "buildingMaterials": "Excellent Adhesion to Most Building Materials",
+    "vibrationResistant": "Ideal for wood-like panels, interior walls",
+    "solventFree": "Solvent-Free, Isocyanate-Free",
+    "strongFlexible": "Especially suitable for light cladding and glass",
+    "paintableUV": "Paintable & UV Resistant",
+    "crystalClear": "Clear drying"
+  }
+  },
+  "showcase": {
+  "badge": "Product in Action",
+  "heading": "Real Work.",
+  "subheading": "Real Results.",
+  "description": "On‑site use, application details, finished looks, and bulk readiness.",
+  "slides": {
+    "1": { "title": "Bulk & Packaging", "caption": "Stock, pallets, and logistics" },
+    "2": { "title": "All-in-One Range", "caption": "Complete Super series lineup" },
+    "3": { "title": "On-site Work", "caption": "Technicians at work with Painto adhesives" },
+    "4": { "title": "In Use", "caption": "Precise bead application and bonding" },
+    "5": { "title": "Finished Look", "caption": "Clean finishes and professional results" }
+  }
+  },
+
+  "proof": {
+  "badge": "Why choose Painto?",
+  "heading": "Built for Israel.",
+  "subheading": "Trusted by professionals.",
+  "description": "Developed to Israeli standards and proven across 5,000+ real installations.",
+  "cta": {
+    "primary": "Wholesale price quote — leave details",
+    "secondary": "Fill form for a profitable offer"
+  },
+  "points": {
+    "1": "Developed according to Israeli standards",
+    "2": "Tested in more than 5,000 installations in the field",
+    "3": "Approved by professionals"
+  },
+  "focus": {
+    "badge": "Super High Tack (for coverings)",
+    "title": "Professional adhesive for wall coverings – no compromises",
+    "description": "Advanced MS polymer, specially adapted for the covering industry in Israel. Tested and verified by thousands of professionals.",
+    "chips": {
+      "1": "Adheres quickly",
+      "2": "Maintains flexibility",
+      "3": "Saves drilling"
+    },
+    "advantages": {
+      "1": "Extremely high initial adhesive strength",
+      "2": "Easy application – no dripping",
+      "3": "Suitable for conditions in Israel",
+      "4": "Aesthetics without drilling",
+      "5": "Adheres in seconds, saves installation time"
+    },
+    "link": "View dedicated Super High Tack page",
+    "imageAlt": "Super High Tack product"
+  }
+  },
+
+  "comparison": {
+  "badge": "Product Comparison",
+  "title": "Choose the Right Adhesive",
+  "desc": "Compare all three Painto SUPER products to find the perfect match for your specific application",
+  "feature": "Feature",
+  "products": {
+    "highTack": { "name": "Super High Tack", "color": "Beige" },
+    "crystal": { "name": "Super Crystal", "color": "Red" },
+    "extreme": { "name": "Super Extreme", "color": "Blue" }
+  },
+  "rows": {
+    "bestFor": {
+      "feature": "Best For",
+      "highTack": "Cladding & Decorative Projects",
+      "crystal": "Transparent Applications",
+      "extreme": "Heavy-Duty Applications"
+    },
+    "adhesiveStrength": {
+      "feature": "Adhesive Strength",
+      "highTack": "⭐ Extremely High",
+      "crystal": "High",
+      "extreme": "⭐⭐ Maximum Strength"
+    },
+    "transparency": {
+      "feature": "Transparency",
+      "highTack": "Opaque (Beige)",
+      "crystal": "⭐⭐ Crystal Clear",
+      "extreme": "Opaque (Blue)"
+    },
+    "idealMaterials": {
+      "feature": "Ideal Materials",
+      "highTack": "Wood-like panels, Interior walls",
+      "crystal": "Glass, Light cladding",
+      "extreme": "Wood, Stainless steel, Concrete"
+    },
+    "dryingTime": {
+      "feature": "Drying Time",
+      "highTack": "⭐ Fast adhesion",
+      "crystal": "Fast & Clean",
+      "extreme": "Fast & Strong"
+    },
+    "uvResistance": {
+      "feature": "UV Resistance",
+      "highTack": "Indoor",
+      "crystal": "Indoor/Limited outdoor",
+      "extreme": "⭐ Indoor & Outdoor"
+    },
+    "noDrilling": {
+      "feature": "No Drilling Required",
+      "highTack": "✅ Yes",
+      "crystal": "✅ Yes",
+      "extreme": "✅ Yes"
+    },
+    "aesthetics": {
+      "feature": "Aesthetics",
+      "highTack": "Clean finish",
+      "crystal": "⭐ Invisible finish",
+      "extreme": "Professional finish"
+    }
+  },
+  "mobile": {
+    "highTack": {
+      "features": {
+        "1": "Best for: Cladding & Decorative Projects",
+        "2": "Extremely high adhesive strength",
+        "3": "Fast adhesion",
+        "4": "Ideal for wood-like panels, interior walls",
+        "5": "No drilling required"
+      }
+    },
+    "crystal": {
+      "features": {
+        "1": "Best for: Transparent Applications",
+        "2": "Crystal clear drying",
+        "3": "High adhesive strength",
+        "4": "Perfect for glass, light cladding",
+        "5": "Aesthetic and clean result"
+      }
+    },
+    "extreme": {
+      "features": {
+        "1": "Best for: Heavy-Duty Applications",
+        "2": "Maximum strength",
+        "3": "UV resistant (indoor & outdoor)",
+        "4": "Suitable for wood, stainless steel, concrete",
+        "5": "Professional-grade performance"
+      }
+    }
+  }
+  },
+
+  "offers": {
+  "badge": "Limited Time Offer",
+  "title": "Exclusive Benefits for Partners",
+  "desc": "Join our growing network of professional contractors and get exclusive advantages",
+  "stand": {
+    "title": "Free Display Stand",
+    "desc": "Professional branded display for your store",
+    "badge": "New"
+  },
+  "web": {
+    "title": "Free Website Exposure",
+    "desc": "Listed on our official dealer locator",
+    "badge": "Popular"
+  },
+  "price": {
+    "title": "Wholesale Pricing",
+    "desc": "Competitive rates for bulk orders",
+    "badge": "Best Value"
+  },
+  "support": {
+    "title": "Priority Support",
+    "desc": "24/7 technical assistance",
+    "badge": "24/7"
+  },
+  "cta": "Get This Offer"
+  },
+
+  "audience": {
+  "badge": "Target Audience",
+  "title": "Who Should Use Painto SUPER?",
+  "desc": "Designed for professionals who demand reliability, speed, and quality in every project",
+  "contractors": {
+    "title": "Renovation Contractors",
+    "desc": "Speed up installations with fast-adhesion technology. No drilling means cleaner job sites and happier clients.",
+    "b1": "Save time on every project",
+    "b2": "Reduce labor costs",
+    "b3": "Clean, professional results"
+  },
+  "installers": {
+    "title": "Cladding Installers",
+    "desc": "Super High Tack is specifically engineered for wall coverings. Tested on thousands of installations across Israel.",
+    "b1": "Perfect for wood-like panels",
+    "b2": "Maintains flexibility",
+    "b3": "No wall damage"
+  },
+  "stores": {
+    "title": "Building Material Stores",
+    "desc": "Stock a proven product line with strong demand. Get exclusive dealer benefits and marketing support.",
+    "b1": "Wholesale pricing",
+    "b2": "Marketing materials included",
+    "b3": "Technical support"
+  }
+  },
+
+  "video": {
+  "badge": "See It In Action",
+  "title": "Installing Real Cladding in 30 Seconds",
+  "desc": "Watch how Super High Tack revolutionizes wall covering installations with instant adhesion and no drilling required",
+  "iframeTitle": "Painto Super High Tack Installation Demo",
+  "f1": "Instant adhesion",
+  "f2": "No drilling",
+  "f3": "30-second install",
+  "f4": "Clean finish"
+  },
+
+  "trust": {
+    "development": {
+      "title": "4+ Years Development",
+      "description": "Rigorously tested in Israeli conditions",
+      "detail": "Laboratory Tests"
+    },
+    "professional": {
+      "title": "Professional Choice",
+      "description": "Trusted by contractors nationwide", 
+      "detail": "Active Users"
+    },
+    "innovation": {
+      "title": "Best for the Isreal Market",
+      "description": "Made specifically for local standards",
+      "detail": "Solid Manufacturing"
+    }
+  },
+  "technical": {
+    "badge": "General advantages",
+    "title": "Designed to perfection",
+    "description": "Each parameter of the product has undergone strict adjustments and tests to meet the working conditions in Israel.",
+    "downloadCta": "Download Complete Technical Sheet",
+    "specs": {
+      "temperatureRange": {
+        "label": "Temperature Range",
+        "detail": "All-weather performance guaranteed"
+      },
+      "strengthRating": {
+        "label": "Load-bearing strength", 
+        "detail": "up to 400 kg (per tube)"
+      },
+      "cureTime": {
+        "label": "Drying time",
+        "detail": "24 hours to final strength"
+      },
+      "durability": {
+        "label": "Durability",
+        "detail": "over 25 years of expected use"
+      },
+      "application": {
+        "label": "Application",
+        "detail": "suitable for all types of surfaces"
+      },
+      "certification": {
+        "label": "Standard",
+        "detail": "ISO 9001"
+      }
+    }
+  },
+
+  "testimonials": {
+  "badge": "Customer Success Stories",
+  "title": "Trusted by Professional Contractors",
+  "description": "Real feedback from experienced installers, renovation contractors, and building material professionals who rely on Painto SUPER products daily.",
+  "testimonial1": {
+    "text": "The instant adhesive saves us hours on every cladding project. Since we switched to SUPER – no complaints.",
+    "author": "Yossi Levy",
+    "role": "Senior Contractor",
+    "location": "Jerusalem",
+    "project": "Azrieli Tower Project",
+    "company": "Levy Construction Ltd."
+  },
+  "testimonial2": {
+    "text": "15 years in construction – and this is the strongest adhesive I’ve worked with. Holds up in any weather.",
+    "author": "Cohen",
+    "role": "Building Contractor",
+    "location": "Tel Aviv",
+    "project": "Sarona Tower Cladding",
+    "company": "Cohen Build Pro"
+  },
+  "testimonial3": {
+    "text": "The work team increased productivity by 30%. SUPER has become our default.",
+    "author": "David Shlomo",
+    "role": "Construction Manager",
+    "location": "Haifa",
+    "project": "Haifa Bay Development",
+    "company": "Shlomo Industries"
+  },
+  "social": {
+    "heading": "Join 5,000+ satisfied professionals",
+    "text": "Trusted for residential, commercial, and industrial projects"
+  }
+  },
+
+  "cta": {
+    "readyToExperience": "Ready to move",
+    "professionalExcellence": "to the next professional level?",
+    "joinOver": "Join",
+    "professionalCount": "5,000 professionals",
+    "acrossIsrael": "who already choose SUPER for the most challenging projects.",
+    "findDealer": "Find Authorized Dealer",
+    "whatsappSupport": "WhatsApp",
+    "whatsappMessage": "Hello! I'm interested in SUPER products for my construction project. Can you provide detailed information?",
+    "technicalSupport": "Technical Support",
+    "satisfiedContractors": "Satisfied Contractors", 
+    "provenPerformance": "Proven Performance",
+    "years":"Years"
+  },
+
+  "ctaFinal": {
+  "readyToExperience": "Ready to Experience",
+  "professionalExcellence": "Professional Excellence?",
+  "joinOver": "Join over",
+  "professionalCount": "5,000 professional contractors",
+  "acrossIsrael": "across Israel who trust Painto SUPER products for demanding cladding and installation projects.",
+  "primaryButton": "Request Pricing",
+  "secondaryButton": "Locate a Dealer",
+  "stat1": "Professional Installations",
+  "stat2": "Years Field Tested",
+  "stat3": "Israeli Standards"
+  },
+
+  "stats": {
+    "users": "5,000+ professional users",
+    "years": "Tested over 4 years",
+    "madeInIsrael": "100% proven performance"
+  },
+  "footer": {
+    "brand": "SUPER HIGH TACK",
+    "description": "Professional MS polymer adhesive solutions engineered for superior bonding performance across all construction applications.",
+    "madeIn": "Made in Israel with expertise",
+    "quickLinks": "Quick Links",
+    "getInTouch": "Get in Touch",
+    "copyright": "SUPER HIGH TACK. All rights reserved. Professional Adhesive Solutions.",
+    "brandEffect": "SUPER",
+    "support": {
+      "professional": "Professional Support Available",
+      "dealers": "Authorized Dealers Across Israel",
+      "documentation": "Technical Documentation Available"
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "hero": {
+      "title": "Let's Connect and",
+      "subtitle": "Build Something Great",
+      "description": "Have questions about our professional adhesive solutions? Need technical support? Our expert team is here to help you choose the right products for your project."
+    },
+    "methods": {
+      "phone": {
+        "title": "Call Us Directly",
+        "description": "Speak with our experts immediately"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Send us detailed inquiries"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Chat",
+        "description": "Quick chat with instant responses",
+        "value": "WhatsApp Business"
+      }
+    },
+    "contactNow": "Contact Now",
+    "whatsappMessage": "Hello! I'm interested in SUPER CRYSTAL products. Can you help me?",
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Fill out the form below and we'll get back to you within 24 hours.",
+      "fields": {
+        "name": "Full Name *",
+        "email": "Email Address *",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message *"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "your.email@example.com",
+        "phone": "+972-XX-XXX-XXXX",
+        "subject": "How can we help you?",
+        "message": "Tell us about your project or question in detail..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending Message...",
+      "success": "Message Sent Successfully!"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Tel Aviv-Yafo, Israel",
+      "hours": "Sunday - Thursday: 8:00 - 18:00",
+      "phone": {
+        "title": "Phone",
+        "description": "Call us directly"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Send us an email"
+      },
+      "location": {
+        "title": "Location",
+        "description": "Visit our office"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "description": "When we're available"
+      }
+    },
+    "guarantee": {
+      "title": "24-Hour Response Guarantee",
+      "description": "We promise to respond to your inquiry within 24 hours during business days."
+    },
+    "emergency": {
+      "title": "Need Urgent Technical Support?",
+      "description": "For urgent technical issues or emergency project support, call our dedicated hotline available 24/7 for professional contractors.",
+      "hotline": "Emergency Hotline"
+    }
+  },
+  "stores": {
+    "badge": "Store Locator",
+    "hero": {
+      "title": "Find Your Nearest",
+      "subtitle": "Authorized Dealer",
+      "description": "Locate professional dealers across Israel who stock our complete range of SUPER products. Get expert advice, technical support, and professional installation services."
+    },
+    "map": {
+      "loading": {
+        "title": "Loading Interactive Map",
+        "description": "Preparing store locations..."
+      }
+    },
+    "location": {
+      "accessDenied": "Location access denied. Please enable location services.",
+      "notSupported": "Geolocation not supported by this browser."
+    },
+    "services": {
+      "installation": "Installation",
+      "consultation": "Consultation",
+      "delivery": "Delivery",
+      "technicalSupport": "Technical Support",
+      "training": "Training",
+      "bulkOrders": "Bulk Orders",
+      "professionalConsultation": "Professional Consultation",
+      "sameDayDelivery": "Same-day Delivery",
+      "equipmentRental": "Equipment Rental",
+      "extremeWeatherSolutions": "Extreme Weather Solutions",
+      "desertConstruction": "Desert Construction",
+      "expressDelivery": "Express Delivery"
+    },
+    "locations": {
+      "jerusalem": {
+        "name": "Jerusalem Cladding Center",
+        "city": "Jerusalem",
+        "description": "Leading supplier of SUPER products in Jerusalem with expert installation team."
+      },
+      "telAviv": {
+        "name": "Tel Aviv Building Supply",
+        "city": "Tel Aviv",
+        "description": "Premier building materials supplier with certified SUPER product specialists."
+      },
+      "haifa": {
+        "name": "Haifa Construction Materials",
+        "city": "Haifa",
+        "description": "Industrial-grade supplier for large construction projects in northern Israel."
+      },
+      "beerSheva": {
+        "name": "Beer Sheva Pro Materials",
+        "city": "Beer Sheva",
+        "description": "Southern Israel's trusted SUPER products distributor with comprehensive services."
+      },
+      "eilat": {
+        "name": "Eilat Desert Supplies",
+        "city": "Eilat",
+        "description": "Specialized in extreme climate applications for southern desert projects."
+      }
+    },
+    "stats": {
+      "authorizedDealers": "Authorized Dealers",
+      "supportAvailable": "Support Available",
+      "sameDayValue": "Same Day",
+      "deliveryAvailable": "Delivery Available",
+      "averageResponse": "Average Response",
+      "expertAdvice": "15 min"
+    },
+    "info": {
+      "professionalServices": {
+        "title": "Professional Services",
+        "description": "Expert installation, technical consultation, and training services available at all authorized dealers."
+      },
+      "qualityGuarantee": {
+        "title": "Quality Guarantee",
+        "description": "All dealers maintain strict quality standards and offer warranty support for SUPER products."
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Same-day or next-day delivery available in major cities. Express shipping for urgent projects."
+      }
+    },
+    "filters": {
+      "searchPlaceholder": "Search stores, cities, or services...",
+        "useLocation": "Use My Location",
+        "locationShort": "Location",
+        "filterByCity": "Filter by City",
+        "clearFilters": "Clear Filters",
+        "allCities": "All Cities",
+        "locationDetected": "Location detected - stores sorted by distance"
+
+    }
+    ,
+     "list": {
+        "noStoresTitle": "No stores found",
+        "noStoresDescription": "Try adjusting your search criteria or removing filters to see more results.",
+        "authorizedDealers": "Authorized Dealers",
+        "clickInfo": "Click on any store to view details and location on map",
+        "today": "Today",
+        "callForHours": "Call for hours",
+        "businessHours": "Business hours",
+        "tapToCall": "Tap to call",
+        "servicesAvailable": "Services Available",
+        "callStore": "Call Store",
+        "getDirections": "Get Directions"
+      }
+  },
+  "locator": {
+  "badge": "Find a Store",
+  "title": "Locate an Authorized Dealer",
+  "desc": "Search by city or use your current location to find nearby partners.",
+  "search": {
+    "placeholder": "Search by city or address",
+    "useMyLocation": "Use my location",
+    "radius": "Radius",
+    "filters": "Filters"
+  },
+  "results": {
+    "heading": "Nearby Stores",
+    "empty": "No stores found in this area.",
+    "distance": "{value} km away",
+    "call": "Call",
+    "directions": "Directions",
+    "website": "Website",
+    "hours": "Hours"
+  },
+  "map": {
+    "loading": "Loading map...",
+    "error": "Map failed to load. Please try again."
+  }
+  }
+}

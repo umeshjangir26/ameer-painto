@@ -1,0 +1,452 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* app/globals.css - Enhanced RTL Support */
+
+/* Hebrew Typography */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* âœ… FIXED: Font Classes */
+.font-hebrew {
+  font-family: 'Assistant', 'Heebo', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+
+
+.font-english {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; /* âœ… FIXED: Removed extra apostrophe */
+}
+
+/* RTL Layout Utilities */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* âœ… FIXED: RTL Flexbox - Removed problematic global flex override */
+/* Don't globally override .flex - it breaks too many components */
+
+/* RTL Flexbox - Specific overrides only */
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .flex-row-reverse {
+  flex-direction: row; /* âœ… FIXED: This was correct after all */
+}
+
+/* RTL Spacing */
+[dir="rtl"] .ml-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+[dir="rtl"] .ml-3 {
+  margin-left: 0;
+  margin-right: 0.75rem;
+}
+
+[dir="rtl"] .mr-3 {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+
+[dir="rtl"] .pl-4 {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+[dir="rtl"] .pr-4 {
+  padding-right: 0;
+  padding-left: 1rem;
+}
+
+/* RTL Positioning */
+[dir="rtl"] .left-0 {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .right-0 {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .left-4 {
+  left: auto;
+  right: 1rem;
+}
+
+[dir="rtl"] .right-4 {
+  right: auto;
+  left: 1rem;
+}
+
+/* RTL Transforms */
+[dir="rtl"] .translate-x-1 {
+  transform: translateX(-0.25rem);
+}
+
+[dir="rtl"] .-translate-x-1 {
+  transform: translateX(0.25rem);
+}
+
+/* Hebrew Typography Specific */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: 'Assistant', 'Heebo', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+[dir="rtl"] p,
+[dir="rtl"] span,
+[dir="rtl"] div {
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.7;
+}
+
+[dir="rtl"] .font-heading {
+  font-family: 'Assistant', sans-serif;
+}
+
+/* RTL Animations */
+[dir="rtl"] .animate-slide-in-right {
+  animation: slideInLeft 0.5s ease-out;
+}
+
+[dir="rtl"] .animate-slide-in-left {
+  animation: slideInRight 0.5s ease-out;
+}
+
+/* Custom RTL keyframes */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* RTL Form Elements */
+[dir="rtl"] input,
+[dir="rtl"] textarea,
+[dir="rtl"] select {
+  text-align: right;
+}
+
+[dir="rtl"] .placeholder\:text-right::placeholder {
+  text-align: right;
+}
+
+/* RTL Navigation */
+[dir="rtl"] .breadcrumb {
+  direction: rtl;
+}
+
+[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+  content: "â—€";
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* RTL Cards and Components */
+[dir="rtl"] .card-header {
+  text-align: right;
+}
+
+[dir="rtl"] .text-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@layer base {
+  :root {
+    --foreground: 0 0% 0%;
+    --whitetext: 0 0% 98%;
+    --background: 0 0% 3.9%;
+
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --foreground-white: 0 0% 98%;
+    
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --tertiary: 0 0% 90%;
+    --tertiary-foreground: 0 0% 9%;
+
+    --subtle: 240 6% 90%;
+    --subtle-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+  }
+}
+
+::selection {
+  background-color: rgba(168, 85, 247, 0.2);
+  color: hsl(var(--foreground));
+}
+
+html, body {
+  font-family: "Inter", sans-serif !important;
+}
+
+.dumy {
+  color: hsl(0 0% 98%);
+  color: rgb(38, 38, 38)
+}
+.text-whitetext { color: hsl(var(--whitetext)); }
+
+::-webkit-scrollbar {
+  width: 6px;
+  scrollbar-color: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #262626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.gradient {
+  background: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 67.5deg, rgb(108, 39, 157) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg);
+}
+
+.not-found {
+  box-shadow: rgba(150, 18, 226, 0.3) 5px 5px;
+}
+
+/* Add to your globals.css */
+@keyframes gradient-x {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s ease infinite;
+  background-size: 200% 200%;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #2563eb, #7c3aed);
+}
+
+/* 3D transforms */
+@keyframes rotate-y-12 {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(12deg); }
+}
+
+.rotate-y-12:hover {
+  transform: rotateY(12deg);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.translate-z-\[-50px\] {
+  transform: translateZ(-50px);
+}
+
+.translate-z-\[-20px\] {
+  transform: translateZ(-20px);
+}
+
+.translate-z-\[-30px\] {
+  transform: translateZ(-30px);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar with gradient */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #ec4899);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #2563eb, #7c3aed, #db2777);
+}
+
+/* âœ… FIXED: Leaflet popup styles */
+.custom-compact-popup .leaflet-popup-content-wrapper {
+  max-width: 280px !important;
+  min-width: 220px !important;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  padding: 0;
+}
+
+.custom-compact-popup .leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4;
+  font-size: 13px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.custom-compact-popup .leaflet-popup-tip {
+  background: white;
+  border-radius: 4px;
+}
+
+.custom-compact-popup .leaflet-popup-close-button {
+  color: #6B7280 !important;
+  font-size: 18px !important;
+  font-weight: bold;
+  padding: 4px 8px !important;
+  top: 8px !important;
+  right: 8px !important;
+}
+
+.custom-compact-popup .leaflet-popup-close-button:hover {
+  color: #374151 !important;
+  background: #F3F4F6 !important;
+  border-radius: 50%;
+}
